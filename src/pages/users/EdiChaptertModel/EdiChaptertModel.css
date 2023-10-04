@@ -1,0 +1,27 @@
+.box-edit-chapter{
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.row-edit-chapter{
+    margin: 10px auto;
+    padding: 10px 5%;
+    display: flex;
+}
+.row-save-chapter{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.save-chapter{
+    width: 91px;
+    padding: 2px 18px;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-weight: bold;
+}

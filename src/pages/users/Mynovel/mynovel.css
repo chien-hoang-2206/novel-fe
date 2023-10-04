@@ -1,0 +1,66 @@
+.containerDST{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 300px 300px ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.outlet-edit-novel{
+    padding: 2vh 0vh 2vh 1vh;
+}
+.novel{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 2px 3px 10px -8px rgba(0,0,0,0.75);
+}
+.novel:hover{
+    transition: 0.7s ease-in;
+    box-shadow: 2px 15px 18px -8px rgba(0,0,0,0.75);
+    background-color: transparent;
+}
+.img-div{
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 4px;
+}
+.img-novel-post{
+    width: 100%; /* or whatever width you want */
+    border-radius: 10px;
+    height: 100%; /* or whatever height you want */
+    object-fit: cover;
+}
+.img-novel-post:hover {
+    transition: 0.4s ease-in;
+    transform: translateY(-10px) rotate(15deg);
+    box-shadow: 2px 35px 32px -8px rgba(0,0,0,0.75);
+
+}
+.text-novel-name{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+  }
+  

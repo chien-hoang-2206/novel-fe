@@ -1,0 +1,232 @@
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+.dropdown{
+  position: relative;
+  width: max-content;
+}
+.dropdown-bxh{
+  position: relative;
+  font-weight: bold;
+  width: max-content;
+}
+.dropdown-profile{
+  font-weight: bold;
+  width: max-content;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  width: 44vh;
+  z-index: 1;
+}
+.grid-content{
+  padding: 2vh 0;
+  margin-left: 2vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.dropdown-content-profile{
+  display: none;
+  position: absolute;
+  width: 24vh;
+  z-index: 1;
+}
+.grid-content-profile{
+  padding: 2vh 0;
+  margin-left: 2vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.dropdown-content a {
+  text-align: left;
+  border-top: none;
+  font-size: 1rem;
+  text-decoration: none;
+  color:rgb(26, 23, 23);
+}
+.dropdown-content-profile a {
+  text-align: left;
+  font-size: 1rem;
+  text-decoration: none;
+  color:rgb(26, 23, 23);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-top: none;
+  border-radius: 4px;
+  background-color: #f1f0f0;
+
+}
+.dropdown-profile :hover .dropdown-content-profile {
+  display: block;
+  border-radius: 4px;
+  border-top: none;
+  background-color: #f1f0f0;
+
+}
+.dropdown-bxh:hover .dropdown-content {
+  display: block;
+  border-radius: 4px;
+  border-top: none;
+  background-color: #f1f0f0;
+
+}
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #583f3f;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-links:hover {
+  border-bottom: 3px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #707070;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 7vh;
+    left: -98%;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    transition: 0.5s;
+    background: #918a8a;
+    margin-top: -1vh;
+    left: 0;
+    opacity: 1;
+    padding-bottom: 2vh;
+}
+
+  .nav-links {
+    text-align: center;
+    width: 80%;
+    margin-left: 4%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: rgba(145, 130, 138, 0.33);
+    width: 80%;
+    font-weight: bold;
+    border-left: 6px solid rgb(97, 96, 95);
+    text-align: center;
+    margin-left: 4%;
+    color: #242424;
+}
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    -webkit-transform: translate(-100%, 60%);
+    -moz-transform: translate(-100%, 60%);
+    -ms-transform: translate(-100%, 60%);
+    -o-transform: translate(-100%, 60%);
+}
+
+  .fa-times {
+    color: #9e9999;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin-left: 4%;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+    font-weight: bold;
+  }
+}

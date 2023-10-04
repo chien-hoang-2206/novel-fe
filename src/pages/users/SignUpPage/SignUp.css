@@ -1,0 +1,56 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height:  40%;
+    background: #ffffff;
+    word-break: break-all;
+  }
+.link-btn {
+    border: none;
+    word-break: break-all;
+    margin: 2vh 12%;
+    background: transparent;
+  }
+.BoxinputSingUp {
+    border: none;
+    display: flex;
+    height: 5vh;
+    padding-left:10px;
+    margin: 1vh  0vh;
+    background: rgb(241, 236, 236);
+  }
+.inputSignUP {
+    border: none;
+    width: 91%;
+    height: 100%;
+    padding-left: 10px;
+    background: transparent;
+  }
+.Sunmit {
+    border: none;
+    border-radius: 4px;
+    margin-top: 2vh;
+    height: 7vh;
+    color: white;
+    background: #00BDD6;
+  }
+.OR {
+    margin-top: -10px;
+    height: 20px;
+    font-size: 30px;
+    padding: 2% 38%;
+    background: #fff;
+  }
+.link-orther-su {
+    border: none;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    font-size: 30px;
+    padding: 1% 20vh;
+    background: transparent;
+  }
+.icon-link-su{
+    margin-top: 0.3rem;
+    font-size: 5vh;
+}

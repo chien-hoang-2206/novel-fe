@@ -1,0 +1,196 @@
+.box-post-novel {
+  width: 100%;
+}
+.input-name-novel {
+  border: 1px solid #000;
+}
+.button-add-type {
+  border: 1px solid #000;
+  background-color: #686767;
+}
+.button-add-type :hover {
+}
+.simplebar-content p {
+  margin: -5px 1px;
+}
+.ocr-import {
+  position: relative;
+  top: -370px;
+  left: 367px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  background-color: transparent;
+  width: 40px;
+}
+.translater-btn {
+  padding-left: 5px;
+  width: 70px;
+  width: 40px;
+  left: 369px;
+  top: -361px;
+}
+.translater-btn2 {
+  position: relative;
+  top: -370px;
+  left: 356px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  background-color: transparent;
+  width: 40px;
+}
+.translater-btn {
+  position: absolute;
+  top: -20px;
+  left: 356px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  background-color: transparent;
+  width: 40px;
+}
+.postnv h2 {
+  font-size: 30px;
+  padding: 2vh auto;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.tems-of-use {
+  background-color: #cce5ff;
+  border-radius: 4px;
+  padding: 1.3vh 2vh 0.5vh 2vh;
+}
+
+.Input-row {
+  margin-top: 3vh;
+}
+
+.row-sm {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.col-type {
+  flex: 2;
+}
+
+.col-type h8 {
+  flex: 2;
+  font-weight: bold;
+  margin-left: 1vh;
+}
+
+.col-type i {
+  flex: 2;
+  font-weight: bold;
+}
+
+.col-input {
+  flex: 7;
+}
+
+.col-input-btn {
+  flex: 7;
+  display: flex;
+}
+
+.col-input-btn input {
+  flex: 7;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 100%;
+  padding-left: 2vh;
+  border-right: none;
+}
+
+.col-input input {
+  flex: 7;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 2vh;
+  font-weight: bold;
+}
+
+.col-input.select {
+  border-radius: 5px;
+}
+
+.col-input ql-editor {
+  flex: 7;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.col-input.button {
+  position: absolute;
+  border-right: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.col-input-btn button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.quill {
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.ql-toolbar.ql-snow {
+  border: 1px solid #000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.ql-container.ql-snow {
+  height: 50vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.post-novel {
+}
+.post-novel .btn {
+  margin: 3vh 0%;
+  margin-left: 50%;
+  padding: 0.7em 1.5em;
+  background: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+  color: #131313;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 12px;
+  background-color: #ecd448;
+  font-weight: bolder;
+  box-shadow: 0 2px 0 2px #000;
+}
+
+.post-novel .btn:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 120%;
+  background-color: #ff6700;
+  top: 50%;
+  transform: skewX(30deg) translate(-150%, -50%);
+  transition: all 0.5s;
+}
+
+.post-novel .btn:hover {
+  background-color: #4cc9f0;
+  color: #fff;
+  box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.post-novel .btn:hover::before {
+  transform: skewX(30deg) translate(150%, -50%);
+  transition-delay: 0.1s;
+}
+
+.post-novel .btn:active {
+  transform: scale(0.9);
+}

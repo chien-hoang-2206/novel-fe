@@ -1,0 +1,82 @@
+.box-page {
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.col-type {
+    flex-direction: column;
+    display: block;
+    width: 22%;
+}
+
+.col-sort-novel {
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    display: flex;
+    width: 78%;
+    padding-left: 5vh;
+}
+
+.choose {
+    border-bottom: 1px solid #C7D2D3;
+
+}
+.choose{
+    padding: 5px;
+}
+.choosed-type {
+    min-height: 10vh;
+    padding-bottom: 1vh ;
+    padding: 5px;
+    font-size: 15px;
+    display: inline-flex;
+    flex-wrap: wrap!important;
+
+}
+.type-choose{
+    min-height: 10vh;
+    padding: 5px;
+    border-bottom: 1px solid #C7D2D3;
+}
+.type{
+    display: inline-flex;
+    padding: 5px;
+    flex-wrap: wrap!important;
+    row-gap: 10px;
+
+}
+@media(max-width: 1468){
+    .type{
+        min-height: 10vh;
+        display: inline-flex;
+        flex-wrap: wrap!important;
+    }
+}
+.status{
+    padding: 5px;
+    border-bottom: 1px solid #C7D2D3;
+}
+.view{
+    border-bottom: 1px solid #C7D2D3;
+}
+.hot{
+    min-height: 10vh;
+    border-bottom: 1px solid #C7D2D3;
+}
+.button {
+
+}
+.sort{
+    display: inline-flex;
+    flex-wrap: wrap!important;
+}
+.novel-info{
+    margin-top: 4vh;
+    margin-left: 2vh;
+    padding-bottom: 1vh ;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap!important;
+}

@@ -1,0 +1,49 @@
+.container-chart {
+    display: flex;
+}
+
+.col-1 {
+    flex: 2;
+    padding: 23px 10px;
+}
+.col-1-sticky{
+    position:sticky;
+    top: 60px;
+    left:10px;
+    background-color: rgba(231, 231, 192, 0.774);
+    border-radius: 5px;
+}
+.col-2 {
+    flex: 9;
+}
+
+.tab-chart {
+}
+
+
+.icon-name {
+    display: flex;
+    align-items: center;
+    justify-content:   left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.text-tab {
+    margin-left: 10px;
+    margin-top: 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.icon-tab {}
+
+.tab-chart:hover {
+    background-color: rgb(183, 138, 40);
+}
+.tab-chart:focus {
+    background-color: rgb(183, 138, 40);
+}

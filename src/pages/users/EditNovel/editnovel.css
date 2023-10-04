@@ -1,0 +1,36 @@
+.box-edit-novel {
+    display: flex;
+}
+
+.image-edit {
+    flex: 1;
+}
+
+.info-edit {
+    flex: 5;
+}
+
+.list-chapter {
+    background: rgba(173, 171, 171, 0.22);
+    border-radius: 20px;
+    padding: 3vh;
+
+}
+
+.list-chapter-content {
+    display: flex;
+    justify-content: space-between;
+}
+.box-list{
+    display: flex;
+    padding-top: 1vh;
+    justify-content: space-between;
+}
+.search-chap{
+    display: flex;
+    margin-left: -30px;
+    align-items: center;
+}
+.list-chap{
+    
+}
